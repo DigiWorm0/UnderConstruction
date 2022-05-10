@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/UnderConstruction/static/css/main.58d97b1a.css",
+    "main.js": "/UnderConstruction/static/js/main.b0c8af59.js",
+    "static/media/bahnschrift.ttf": "/UnderConstruction/static/media/bahnschrift.23b347dac5478c8b4500.ttf",
+    "index.html": "/UnderConstruction/index.html",
+    "main.58d97b1a.css.map": "/UnderConstruction/static/css/main.58d97b1a.css.map",
+    "main.b0c8af59.js.map": "/UnderConstruction/static/js/main.b0c8af59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58d97b1a.css",
+    "static/js/main.b0c8af59.js"
+  ]
+}
