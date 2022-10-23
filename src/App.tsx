@@ -1,32 +1,22 @@
+import { NonIdealState } from '@blueprintjs/core';
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <img
-                    src={"./logo128.png"}
-                    className="App-logo"
-                    alt="logo" />
-
-                <h3 className="App-text">
-                    We are working on LevelImposter v2!
-                </h3>
-
-                <h6 className="App-text">
-                    Come check our progress on our <a
-                        className="App-link"
-                        href="https://discord.gg/9jJEBQ4qJs"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Discord
-                    </a> server.
-                </h6>
-
-            </header>
+        <div
+            className="bp4-dark"
+            style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '100vh',
+                width: '100vw',
+            }}>
+            <NonIdealState
+                icon="take-action"
+                title={(<h1>UH OH!</h1>)}
+                description="The UW-Stout Involvement Center had finally shut us down. We'll be back soon! (Hopefully)"
+            />
         </div>
     );
 }

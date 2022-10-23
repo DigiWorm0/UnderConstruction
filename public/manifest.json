@@ -1,16 +1,21 @@
 {
-    "short_name": "Under Construction",
-    "name": "Site is Under Construction",
+    "short_name": "UW-Stout Leaderboard",
+    "name": "Unofficial UW-Stout CONNECT Points Leaderboard",
     "icons": [
         {
             "src": "favicon.ico",
-            "sizes": "16x16 24x24 32x32 48x48 64x64 96x96 128x128",
+            "sizes": "64x64 32x32 24x24 16x16",
             "type": "image/x-icon"
         },
         {
-            "src": "logo128.png",
+            "src": "favicon-32x32.png",
             "type": "image/png",
-            "sizes": "128x128"
+            "sizes": "32x32"
+        },
+        {
+            "src": "apple-touch-icon.png",
+            "type": "image/png",
+            "sizes": "180x180"
         }
     ],
     "start_url": ".",
