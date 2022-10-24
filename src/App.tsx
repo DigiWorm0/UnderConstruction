@@ -1,5 +1,4 @@
-import { NonIdealState } from '@blueprintjs/core';
-import React from 'react';
+import { Icon } from '@blueprintjs/core';
 
 function App() {
     return (
@@ -7,16 +6,33 @@ function App() {
             className="bp4-dark"
             style={{
                 display: 'flex',
+                flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'center',
+                textAlign: 'center',
                 height: '100vh',
                 width: '100vw',
             }}>
-            <NonIdealState
-                icon="take-action"
-                title={(<h1>UH OH!</h1>)}
-                description="The UW-Stout Involvement Center had finally shut us down. We'll be back soon! (Hopefully)"
+            <Icon
+                icon="warning-sign"
+                iconSize={100}
+                color="yellow"
             />
+            <h1 style={{
+                fontSize: 64,
+                marginTop: 20,
+                marginBottom: 20,
+            }}>
+                UH OH!
+            </h1>
+            <p>
+                Looks like UW-Stout had finally shut us down. We'll be back soon! (Hopefully) <br />
+                Please, redirect all of your comments to {' '}
+                <a href="mailto:me@uwstout.wtf">
+                    Me<span style={{ fontSize: 10 }}>@UWStout.WTF</span>
+                </a>
+                .
+            </p>
         </div>
     );
 }
