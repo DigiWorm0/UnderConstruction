@@ -26,8 +26,11 @@ function App() {
                 UH OH!
             </h1>
             <p>
-                Looks like UW-Stout had finally shut us down. We'll be back soon! (Hopefully) <br />
-                Please, redirect all of your comments to {' '}
+                60+mph winds took out our power along with <br />
+                <a href="https://www.fox6now.com/news/power-outages-strong-winds-cedarburg">everyone else in Southeastern Wisconsin.</a><br />
+                We should be back soon (hopefully).<br />
+                <br />
+                Please, redirect all of your shit comments to {' '}
                 <a href="mailto:me@uwstout.wtf">
                     Me<span style={{ fontSize: 10 }}>@UWStout.WTF</span>
                 </a>
